@@ -27,14 +27,8 @@ app.get("/rates", async (req, res) => {
   res.json(data);
 });
 
-app.get('/log', async (req, res) => {
-  fs.readFile('./data/accesslog.json', 'utf-8', (err, jsonString) => {
-    if (err) {
-      console.log(err);
-    } else {
-      res.json(JSON.parse(jsonString));
-    }
-  })
+app.get('/log/:fromto', async (req, res) => {
+  res.json(logger.retrieveLog(req.params.fromto));
 })
 
 app.listen(process.env.PORT, () => {
