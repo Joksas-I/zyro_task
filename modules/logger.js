@@ -55,8 +55,10 @@ const retrieveLog = (req, res, next) => {
 
   if(sortedLog.length != 0 ) {
     res.send(sortedLog);
-  } else {
+  } else if (log.length === 0) {
     res.send('No log records.');
+  } else {
+    res.send('Incorrect request.')
   }
 }
 
