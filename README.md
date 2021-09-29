@@ -8,7 +8,7 @@ API's ENDPOINTS:
 
 - Access log:
   - DOMAIN/log
-  - DOMAIN/log?from=YYYY-MM-DD&to=YYYY-MM-DD
+  - DOMAIN/log/YYYY-MM-DD:YYYY-MM-DD
 
 ##
 
