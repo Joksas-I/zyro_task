@@ -3,8 +3,12 @@
 API created with Node.js and Express.js
 
 API's ENDPOINTS:
-- Current Exchange Rates
-- Access log
+- Current Exchange Rates:<br>
+  - DOMAIN/rates
+
+- Access log:
+  - DOMAIN/log
+  - DOMAIN/log?from=YYYY-MM-DD&to=YYYY-MM-DD
 
 ##
 
