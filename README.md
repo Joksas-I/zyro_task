@@ -11,4 +11,3 @@ API's ENDPOINTS:
 Task completed by Irmantas Joksas<br>
 
 - **[LinkedIn](https://www.linkedin.com/in/irmantas-jok%C5%A1as-4b8104137/)**
-- **[GitHub](https://github.com/Joksas-I)**
